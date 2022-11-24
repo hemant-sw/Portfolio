@@ -1,0 +1,15 @@
+version: "3"
+services:
+  portfoio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src:/app/src
+    environment:
+      - REACT_APP_NAME=hemant
+      - CHINESE_FOOD= rtuoh
+      - WATCHPACK_POLLING=TRUE
+
