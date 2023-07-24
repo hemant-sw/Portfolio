@@ -15,7 +15,7 @@ export default function About() {
 
         </div>
         <div className='about-photo'>
-            <img src={require("../../../assets/hemant.jpeg")}
+            <img src={require("../../../assets/hemant.jpeg")} alt='frfr'
              className="picture"/>
 
         </div>

@@ -21,7 +21,7 @@ export const SkillsData=[
             },
             {
                 names:"python",
-                icon:<img src={require("../../assets/icons/python.png") }/>
+                icon:<img src={require("../../assets/icons/python.png") } alt="5"/>
                 
             }
         ]

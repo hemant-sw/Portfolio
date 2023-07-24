@@ -10,7 +10,7 @@ export default function SocialContact() {
     return(
       <a href={item.links}>
         <div className="social-icon-div">
-          <img src={item.icon} className="social-icon"/>
+          <img src={item.icon} className="social-icon" alt='5'/>
         </div>
 
 
